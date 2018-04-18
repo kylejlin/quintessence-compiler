@@ -1,0 +1,32 @@
+{
+  "name": "quintessence-compiler",
+  "version": "1.0.0",
+  "description": "A compiler that compiles a Quintessence card definition to JSON",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js --exec babel-node --presets env",
+    "build": "babel src -d dist --presets env",
+    "main": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejlin/quintessence-compiler.git"
+  },
+  "author": "Kyle Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylejlin/quintessence-compiler/issues"
+  },
+  "homepage": "https://github.com/kylejlin/quintessence-compiler#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
