@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it generates the correct JSON 1`] = `
+"{
+    \\"Mermaid\\": {
+        \\"attacks\\": [
+            {
+                \\"input\\": {
+                    \\"energy\\": [
+                        0,
+                        3,
+                        0
+                    ],
+                    \\"mana\\": [
+                        0,
+                        0,
+                        0
+                    ],
+                    \\"strength\\": [
+                        0,
+                        0,
+                        0
+                    ],
+                    \\"transfers\\": [
+                        {
+                            \\"startLocation\\": [
+                                \\"FIELD\\"
+                            ],
+                            \\"endLocation\\": [
+                                \\"FIELD\\"
+                            ],
+                            \\"matcher\\": [
+                                {
+                                    \\"energy\\": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    \\"mana\\": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    \\"strength\\": [
+                                        null,
+                                        null,
+                                        null
+                                    ]
+                                },
+                                {
+                                    \\"energy\\": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    \\"mana\\": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    \\"strength\\": [
+                                        [
+                                            \\"+\\",
+                                            0,
+                                            \\"a\\"
+                                        ],
+                                        [
+                                            \\"+\\",
+                                            0,
+                                            \\"b\\"
+                                        ],
+                                        [
+                                            \\"+\\",
+                                            0,
+                                            \\"c\\"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                \\"output\\": {
+                    \\"energy\\": [
+                        0,
+                        0,
+                        0
+                    ],
+                    \\"mana\\": [
+                        0,
+                        0,
+                        0
+                    ],
+                    \\"strength\\": [
+                        0,
+                        [
+                            \\"+\\",
+                            0,
+                            [
+                                \\"+\\",
+                                \\"a\\",
+                                [
+                                    \\"+\\",
+                                    \\"b\\",
+                                    \\"c\\"
+                                ]
+                            ]
+                        ],
+                        0
+                    ],
+                    \\"transfers\\": []
+                }
+            }
+        ],
+        \\"defenses\\": [],
+        \\"boths\\": [],
+        \\"prices\\": [],
+        \\"variables\\": [
+            null
+        ]
+    }
+}"
+`;
