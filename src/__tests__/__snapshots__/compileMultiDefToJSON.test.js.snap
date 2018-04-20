@@ -116,7 +116,30 @@ exports[`it generates the correct JSON 1`] = `
         \\"boths\\": [],
         \\"prices\\": [],
         \\"variables\\": [
-            null
+            {
+                \\"name\\": \\"a\\",
+                \\"minimum\\": {
+                    \\"isInclusive\\": true,
+                    \\"value\\": 0
+                },
+                \\"maximum\\": null
+            },
+            {
+                \\"name\\": \\"b\\",
+                \\"minimum\\": {
+                    \\"isInclusive\\": true,
+                    \\"value\\": 0
+                },
+                \\"maximum\\": null
+            },
+            {
+                \\"name\\": \\"c\\",
+                \\"minimum\\": {
+                    \\"isInclusive\\": true,
+                    \\"value\\": 0
+                },
+                \\"maximum\\": null
+            }
         ]
     }
 }"

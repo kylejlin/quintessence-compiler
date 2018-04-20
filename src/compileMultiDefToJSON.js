@@ -72,13 +72,53 @@ const compileActionCardDefinitionsToJSON = (multiDef) => {
         return computeParsedExpression(price)
       }),
       variables: variables.map((variable) => {
-        // .args
-        return null // TODO
+        const expr = variable.arguments[0].arguments[0].arguments[0]
+        const parts = expr
+          .split(/([a-zA-Z]+)/)
+          .filter(part => undefined !== part)
+          .map(part => part.trim())
+          .filter(part => '' !== part)
+
+        const nameIndex = parts.findIndex(part => /^[a-zA-Z]+$/.test(part))
+        const name = parts[nameIndex]
+
+        const minExpr = nameIndex === 0
+          ? null
+          : parts[0]
+        const maxExpr = nameIndex !== parts.length - 2
+          ? null
+          : parts[parts.length - 1]
+
+        const minimum = minExpr
+          ? {
+            isInclusive: minExpr.indexOf('<=') > -1,
+            value: +extractDigits(minExpr)
+          }
+          : null
+        const maximum = maxExpr
+          ? {
+            isInclusive: maxExpr.indexOf('<=') > -1,
+            value: +extractDigits(maxExpr)
+          }
+          : null
+
+        return {
+          name,
+          minimum,
+          maximum
+        }
       })
     }
   })
 
   return computedCardProps
+}
+
+const extractDigits = (string) => {
+  return string
+    .split('')
+    .filter(char => /\d/.test(char))
+    .join('')
 }
 
 const splitArrow = (expression) => {

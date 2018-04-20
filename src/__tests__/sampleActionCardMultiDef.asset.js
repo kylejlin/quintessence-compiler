@@ -7,7 +7,10 @@ Mermaid {
     )
     ->
     strength(0, a + b + c, 0)
-  variable: 0<a<10
+
+  variable: variable(0 <= a)
+  variable: variable(0 <= b)
+  variable: variable(0 <= c)
 }
 
 
