@@ -1,22 +1,4 @@
 export default `
-Mermaid {
-  attack:
-    energy(0, 3, 0)
-    transfer(FIELD, FIELD,
-    [=>strength(a, b, c)]
-    )
-    ->
-    strength(0, a + b + c, 0)
-
-  variable: variable(0 <= a)
-  variable: variable(0 <= b)
-  variable: variable(0 <= c)
-}
-
-
-`
-
-/*export default `
 // Energy
 
 // Energy.Fire
@@ -94,4 +76,20 @@ Earthquake {
   attack: energy(0, 0, 4) -> mana(0, 2, 3)
   price: energy(1, 0, 2)
 }
-`*/
+
+// Warrior.Water
+
+Mermaid {
+  attack:
+    energy(0, 3, 0)
+    transfer(FIELD, FIELD,
+    [=>strength(a, b, c)]
+    )
+    ->
+    strength(0, a + b + c, 0)
+
+  variable: variable(0 <= a)
+  variable: variable(0 <= b)
+  variable: variable(0 <= c)
+}
+`

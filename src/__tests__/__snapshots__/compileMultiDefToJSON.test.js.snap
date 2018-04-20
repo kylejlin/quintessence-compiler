@@ -1,146 +1,1004 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`it generates the correct JSON 1`] = `
-"{
-    \\"Mermaid\\": {
-        \\"attacks\\": [
-            {
-                \\"input\\": {
-                    \\"energy\\": [
-                        0,
-                        3,
-                        0
-                    ],
-                    \\"mana\\": [
-                        0,
-                        0,
-                        0
-                    ],
-                    \\"strength\\": [
-                        0,
-                        0,
-                        0
-                    ],
-                    \\"transfers\\": [
-                        {
-                            \\"startLocation\\": [
-                                \\"FIELD\\"
-                            ],
-                            \\"endLocation\\": [
-                                \\"FIELD\\"
-                            ],
-                            \\"matcher\\": [
-                                {
-                                    \\"energy\\": [
-                                        null,
-                                        null,
-                                        null
-                                    ],
-                                    \\"mana\\": [
-                                        null,
-                                        null,
-                                        null
-                                    ],
-                                    \\"strength\\": [
-                                        null,
-                                        null,
-                                        null
-                                    ]
-                                },
-                                {
-                                    \\"energy\\": [
-                                        null,
-                                        null,
-                                        null
-                                    ],
-                                    \\"mana\\": [
-                                        null,
-                                        null,
-                                        null
-                                    ],
-                                    \\"strength\\": [
-                                        [
-                                            \\"+\\",
-                                            0,
-                                            \\"a\\"
-                                        ],
-                                        [
-                                            \\"+\\",
-                                            0,
-                                            \\"b\\"
-                                        ],
-                                        [
-                                            \\"+\\",
-                                            0,
-                                            \\"c\\"
-                                        ]
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                \\"output\\": {
-                    \\"energy\\": [
-                        0,
-                        0,
-                        0
-                    ],
-                    \\"mana\\": [
-                        0,
-                        0,
-                        0
-                    ],
-                    \\"strength\\": [
-                        0,
-                        [
-                            \\"+\\",
-                            0,
-                            [
-                                \\"+\\",
-                                \\"a\\",
-                                [
-                                    \\"+\\",
-                                    \\"b\\",
-                                    \\"c\\"
-                                ]
-                            ]
-                        ],
-                        0
-                    ],
-                    \\"transfers\\": []
-                }
-            }
+Object {
+  "Avalanche": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            3,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            3,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          1,
+          0,
+          1,
         ],
-        \\"defenses\\": [],
-        \\"boths\\": [],
-        \\"prices\\": [],
-        \\"variables\\": [
-            {
-                \\"name\\": \\"a\\",
-                \\"minimum\\": {
-                    \\"isInclusive\\": true,
-                    \\"value\\": 0
+        "mana": Array [
+          0,
+          0,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Earthquake": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            4,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            2,
+            3,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          1,
+          0,
+          2,
+        ],
+        "mana": Array [
+          0,
+          0,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Fireball": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            3,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            3,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          2,
+          0,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Forest": Object {
+    "attacks": Array [],
+    "boths": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            1,
+            2,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          0,
+          2,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Hail": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            1,
+            2,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            2,
+            1,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          0,
+          1,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Hot Spring": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            1,
+            2,
+            1,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            2,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          1,
+          0,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Lightning": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            2,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            1,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          1,
+          1,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Mermaid": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            3,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [
+            Object {
+              "endLocation": Array [
+                "FIELD",
+              ],
+              "matcher": Array [
+                Matcher {
+                  "energy": Array [
+                    null,
+                    null,
+                    null,
+                  ],
+                  "mana": Array [
+                    null,
+                    null,
+                    null,
+                  ],
+                  "strength": Array [
+                    null,
+                    null,
+                    null,
+                  ],
                 },
-                \\"maximum\\": null
+                Matcher {
+                  "energy": Array [
+                    null,
+                    null,
+                    null,
+                  ],
+                  "mana": Array [
+                    null,
+                    null,
+                    null,
+                  ],
+                  "strength": Array [
+                    Array [
+                      "+",
+                      0,
+                      "a",
+                    ],
+                    Array [
+                      "+",
+                      0,
+                      "b",
+                    ],
+                    Array [
+                      "+",
+                      0,
+                      "c",
+                    ],
+                  ],
+                },
+              ],
+              "startLocation": Array [
+                "FIELD",
+              ],
             },
-            {
-                \\"name\\": \\"b\\",
-                \\"minimum\\": {
-                    \\"isInclusive\\": true,
-                    \\"value\\": 0
-                },
-                \\"maximum\\": null
-            },
-            {
-                \\"name\\": \\"c\\",
-                \\"minimum\\": {
-                    \\"isInclusive\\": true,
-                    \\"value\\": 0
-                },
-                \\"maximum\\": null
-            }
-        ]
-    }
-}"
+          ],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            Array [
+              "+",
+              0,
+              Array [
+                "+",
+                "a",
+                Array [
+                  "+",
+                  "b",
+                  "c",
+                ],
+              ],
+            ],
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [],
+    "variables": Array [
+      Object {
+        "maximum": null,
+        "minimum": Object {
+          "isInclusive": true,
+          "value": 0,
+        },
+        "name": "a",
+      },
+      Object {
+        "maximum": null,
+        "minimum": Object {
+          "isInclusive": true,
+          "value": 0,
+        },
+        "name": "b",
+      },
+      Object {
+        "maximum": null,
+        "minimum": Object {
+          "isInclusive": true,
+          "value": 0,
+        },
+        "name": "c",
+      },
+    ],
+  },
+  "Mountain": Object {
+    "attacks": Array [],
+    "boths": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            3,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          0,
+          0,
+          4,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Swamp": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            3,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          0,
+          1,
+          1,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Thunder": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            1,
+            2,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            1,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            2,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            0,
+            1,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            1,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          1,
+          1,
+          0,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Vent": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            2,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          2,
+          1,
+          1,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+  "Volcano": Object {
+    "attacks": Array [
+      Object {
+        "input": Option {
+          "energy": Array [
+            0,
+            0,
+            0,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+        "output": Option {
+          "energy": Array [
+            4,
+            0,
+            1,
+          ],
+          "mana": Array [
+            0,
+            0,
+            0,
+          ],
+          "strength": Array [
+            0,
+            0,
+            0,
+          ],
+          "transfers": Array [],
+        },
+      },
+    ],
+    "boths": Array [],
+    "defenses": Array [],
+    "prices": Array [
+      Option {
+        "energy": Array [
+          0,
+          0,
+          0,
+        ],
+        "mana": Array [
+          2,
+          0,
+          1,
+        ],
+        "strength": Array [
+          0,
+          0,
+          0,
+        ],
+        "transfers": Array [],
+      },
+    ],
+    "variables": Array [],
+  },
+}
 `;
