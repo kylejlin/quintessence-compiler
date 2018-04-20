@@ -1,1 +1,1 @@
-console.log('hi')
+export { default as compileMultiDefToJSON } from './compileMultiDefToJSON'
